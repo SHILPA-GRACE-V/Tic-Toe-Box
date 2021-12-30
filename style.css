@@ -1,0 +1,23 @@
+.game-board {
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
+    grid-gap: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+.reset{
+  align-items: center;
+  text-align: center;
+  
+}
